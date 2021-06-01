@@ -10,7 +10,7 @@ def getText(filename):
     return '\n'.join(fullText)
 
 
-f = getText("C:/Users/Sagnik/Desktop/The_text_files/test.docx")
+f = getText("filepath")
 
 print(f)
 nlp = pipeline("question-generation")
